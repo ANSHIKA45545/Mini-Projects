@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    margin-top:50px;
+}
+.title h2{
+    font-size: 33px;
+    text-decoration: underline;
+    color: rgb(98, 43, 4);
+}
+.btn-container{
+    text-align: center;
+}
+.filter-btn{
+    border: 2px solid rgb(141, 62, 6);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: white;
+    margin: 4px;
+    color: chocolate;
+}
+.filter-btn:hover{
+    color: white;
+    background-color: chocolate; 
+}
+
+.photo{
+    height: 180px;
+    width: 280px;
+    border: 2px solid chocolate;
+   
+}
+.menu-item{
+    display: flex;
+    padding-bottom: 30px;
+    grid-template-columns: 2fr;
+    /* padding-left: 30px; */
+}
+header{
+    gap: 2.6rem;
+    display: flex;
+    color: chocolate;
+}
+.g-col-4{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.item-text{
+    margin-top: 5px;
+    height: 50px;
+    width: 420px;
+}
+.item-info{
+    float: left;
+    margin-left: 18px;
+    margin-top: 3px;
+    box-shadow: 3px solid chocolate;
+}
+.order{
+    border: 1px solid chocolate;
+    padding:6px 19px 6px 19px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.order:hover{
+    color: white;
+    background-color: chocolate;
+}
+@media screen and (max-width: 768px){
+    .photo{
+        height: 180px;
+        width: 350px;
+        border: 2px solid chocolate;
+    }
+    .menu-item{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .order{
+        margin-left: 90px;
+        margin-bottom: 40px;
+    }
+    .item-text{
+        margin-top: 0;
+    }
+    .price{
+        margin-left: 80px;
+    }
+}
