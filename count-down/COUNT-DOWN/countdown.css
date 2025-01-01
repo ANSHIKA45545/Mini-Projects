@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.photo{
+    height: 350px;
+    width: 400px;
+    margin-left: 100px;
+}
+.section-center{
+    display: flex;
+    margin-top: 100px;
+}
+.info{
+    margin-left: 30px;
+}
+.info h3{
+    text-align: center;
+    color: rgb(166, 9, 9);
+    font-weight: 800;
+}
+.celebrate{
+    color: chocolate;
+    margin-top: 20px;
+}
+.wish{
+    height: 160px;
+    width: 700px;
+}
+.deadline{
+    display: flex;
+    gap: 2rem;
+}
+.day1{
+    background-color: brown;
+    color: white;
+    height: 70px;
+    width: 60px;
+    text-align: center;
+}
+
+@media screen and (max-width : 768px){
+    .photo{
+        height: 300px;
+        width: 400px;
+        align-items: center;
+    }
+    .section-center{
+        display: block;
+        margin-top: 10px;
+    }
+    .info{
+        margin-left: 10px;
+    }
+    .info h3{
+        margin-top: 20px;
+    }
+    .wish{
+        height: 160px;
+        width: 600px;
+    }
+    .deadline-format{
+        margin-left: 20px;
+    }
+}
